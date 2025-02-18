@@ -1,3 +1,4 @@
+%global __requires_exclude libgtd.so.0()
 %global tarball_version %%(echo %{version} | tr '~' '.')
 
 Name:           gnome-endeavour
