@@ -16,6 +16,7 @@ BuildRequires:  meson
 BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(goa-1.0)
+BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:  pkgconfig(libecal-2.0) >= 3.33.2
