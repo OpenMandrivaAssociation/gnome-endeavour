@@ -9,14 +9,17 @@ Summary:        Personal task manager for GNOME
 License:        GPL-3.0-or-later
 URL:            https://gitlab.gnome.org/World/Endeavour/
 Source0:        https://gitlab.gnome.org/World/Endeavour/-/archive/%{tarball_version}/Endeavour-%{tarball_version}.tar.bz2
+# Port to GiRepository2. Based on mageia.
+Patch0:         port-to-girepository2.patch
 
 BuildRequires:  gettext
 BuildRequires:  itstool
 BuildRequires:  meson
 BuildRequires:  pkgconfig(gio-2.0)
 BuildRequires:  pkgconfig(glib-2.0)
+BuildRequires:  pkgconfig(girepository-2.0)
 BuildRequires:  pkgconfig(goa-1.0)
-BuildRequires:  pkgconfig(gobject-introspection-1.0)
+#BuildRequires:  pkgconfig(gobject-introspection-1.0)
 BuildRequires:  pkgconfig(gtk4)
 BuildRequires:  pkgconfig(libadwaita-1)
 BuildRequires:  pkgconfig(libecal-2.0) >= 3.33.2
