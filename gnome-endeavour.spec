@@ -3,7 +3,7 @@
 
 Name:           gnome-endeavour
 Version:        43.0
-Release:        3
+Release:        4
 Summary:        Personal task manager for GNOME
 
 License:        GPL-3.0-or-later
